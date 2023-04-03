@@ -1,0 +1,25 @@
+
+/* ---------- footer ---------- */
+footer{
+    width: 100%;
+    padding: 3em 0;
+    flex-direction: column;
+    background: #1a1a1a;
+}
+footer .social_media_icons{
+    margin-top: 1em;
+}
+footer .social_media_icons a{
+    margin: 0 .8em;
+    border-radius: 50px;
+}
+footer .social_media_icons a i{
+    font-size: 1.8em;
+    padding: 0.2em;
+    transition: color 0.4s;
+}
+footer .social_media_icons a:hover i{
+    font-size: 1.8em;
+    padding: 0.2em;
+    color: rgba(54, 54, 54, 0.966);
+}

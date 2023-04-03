@@ -1,0 +1,93 @@
+/* ---------- skills section ---------- */
+.skills {
+    width: 100%;
+    /* height: 50em; */
+    margin: 2em 0;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .skills::before,
+  .skills::after {
+    content: "";
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background: #8e2de2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #4a00e0,
+      #8e2de2
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #4a00e0,
+      #8e2de2
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 50%;
+  }
+  .skills::before {
+    left: -10em;
+    bottom: 0;
+  }
+  .skills::after {
+    right: -10em;
+    top: 8em;
+    background: #f953c6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #b91d73,
+      #f953c6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #b91d73,
+      #f953c6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .skill_box {
+    flex-wrap: wrap;
+  }
+  .skill_box .box {
+    margin: 2em 2em;
+    width: 15em;
+    height: 12em;
+    background: var(--bg-dark);
+    background: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+  .skill_box .box::before {
+    content: "";
+    position: absolute;
+    background: var(--secondary-color);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform-origin: bottom;
+    transform: scaleY(0.03);
+    transition: all 0.3s;
+  }
+  .skill_box .box:hover::before {
+    transform: scaleY(1);
+  }
+  .skill_box .box i {
+    margin-bottom: 0.1em;
+  }
+  .skill_head {
+    font-size: 6em;
+    font-family: var(--font);
+  }
+  
+  
+  

@@ -1,0 +1,58 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Work+Sans&display=swap');
+
+/* CSS fles */
+
+/* Media Query css file */
+@import "assets/CSS/mediaquery.css";
+
+/* Footer Css Files */
+@import "assets/CSS/footer.css";
+
+/* Project Css Files */
+@import "assets/CSS/project.css";
+
+/* Skills Css */
+@import "assets/CSS/skills.css";
+
+/*Main Css */
+@import "assets/CSS/main.css";
+
+/*Toggle Css */
+@import "assets/CSS/toggle.css";
+
+/* About Css */
+@import "assets/CSS/about.css";
+
+/* css fiels end */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--secondary-font);
+  color: var(--color);
+  scroll-behavior: smooth;
+}
+:root {
+  --bg: #252a34;
+  --bg-dark: #1d1d1d;
+  --color: #eaeaea;
+  --light-color: #eaeaeaa4;
+  --primary-color: #08d9d6;
+  --secondary-color: #ff2e63;
+  --font: 'Crimson Text', serif;
+  --secondary-font: 'Work Sans', sans-serif;
+}
+body {
+  background: var(--bg);
+  color: var(--color);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
