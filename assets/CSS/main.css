@@ -33,16 +33,15 @@
     margin-bottom: 1.5em;
   }
   #main .user_img img {
-    width: 30em;
-    height: 30em;
-    border-radius: 50%;
-    margin: 0 30px;
+    width: 25em;
+    height: 25em;
+    border-radius: 100%;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.479);
     padding: 5px;
+    transition: all 0.4s ease-in;
   }
   #main .user_img img:hover{
-    border: 3px solid var(--secondary-color);
-    transition: all 0.8s;
+    border: 2px solid var(--secondary-color);
   }
   #main .user_info .btn {
     padding: 0.6em 2em;
